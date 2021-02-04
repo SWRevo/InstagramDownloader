@@ -3,7 +3,7 @@
 
 Implementation Instagram Feed & Story Downloader.
 
-![Sample screenshot](https://raw.github.com/makeramen/RoundedImageView/master/screenshot.png)
+![Sample screenshot](https://raw.githubusercontent.com/SWRevo/InstagramDownloader/master/media/144817317_257925822451736_8958634926165590722_n.jpg)
 
 ## Requirements
 
