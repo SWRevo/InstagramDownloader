@@ -3,6 +3,8 @@
 
 Implementation Instagram Feed & Story Downloader.
 
+![Sample screenshot](https://raw.github.com/makeramen/RoundedImageView/master/screenshot.png)
+
 ## Requirements
 
 - Java 1.8
