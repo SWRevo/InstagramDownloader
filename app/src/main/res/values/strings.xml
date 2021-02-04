@@ -1,0 +1,22 @@
+<resources>
+	<string	name="app_name"	translatable="false">PasCol</string>
+	<string name="yes">Yes</string>
+	<string name="cancel">Cancel</string>
+	<string name="do_u_want_to_download_media_from_pvt">Don\'t Want to Download Media from Private Account?</string>
+	<string name="enter_url">Enter Url</string>
+	<string name="enter_valid_url">Enter Valid Url</string>
+	<string name="no_net_conn">No Internet Connection</string>
+	<string name="share">Share</string>
+	<string name="whatsapp">Whatsapp</string>
+	<string name="delete">Delete</string>
+	<string name="no_result_found">No Result Found</string>
+	<string name="download">Download</string>
+
+
+
+
+
+	<string name="no">No</string>
+	<string name="do_u_want_to_dlt">Do you want to delete?</string>
+	<string name="file_deleted">File Deleted.</string>
+</resources>

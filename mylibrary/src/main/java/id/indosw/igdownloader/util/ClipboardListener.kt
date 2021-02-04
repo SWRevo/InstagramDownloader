@@ -1,0 +1,5 @@
+package id.indosw.igdownloader.util
+
+import android.content.ClipboardManager.OnPrimaryClipChangedListener
+
+abstract class ClipboardListener : OnPrimaryClipChangedListener

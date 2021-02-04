@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/RLStoryLayout"
+        android:padding="2dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="1dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/story_icon"
+            android:background="@drawable/border"
+            android:padding="2dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp" />
+        <TextView
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:id="@+id/real_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="#FFFFFFFF"
+            android:maxLines="1"
+            android:layout_below="@id/story_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="1dp"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:textSize="12sp"
+            android:id="@+id/user_name"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text=""
+            android:textColor="#FFFFFFFF"
+            android:layout_below="@id/real_name"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</layout>

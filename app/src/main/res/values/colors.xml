@@ -1,0 +1,24 @@
+<resources>
+	<color	name="colorPrimary">#EA005E</color>
+	<color	name="colorPrimaryDark">#EA005E</color>
+	<color	name="colorAccent">#EA005E</color>
+	<color	name="colorControlHighlight">#E1BEE7</color>
+	<color	name="colorControlNormal">#EA005E</color>
+
+	<color name="cld">#1E5DFF</color>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000</color>
+	<color name="transparent">#00000000</color>
+	<color name="dark_grey">#DCDCDC</color>
+	<color name="green_50">#4F971C</color>
+	<color name="grey">#BFBFBF</color>
+	<color name="red">#fe4e4e</color>
+	<color name="holo_green">#82DF4F</color>
+	<color name="dark_grey_blue">#33475c</color>
+	<color name="blue">#6432BE</color>
+	<color name="black_transparent">#40000000</color>
+	<color name="splash_text">#7ffb00</color>
+	<color name="whatsapp_color">#3DE25C</color>
+	<color name="bottomNavigation">#FF131418</color>
+	<color name="gray">#2d2d2d</color>
+</resources>

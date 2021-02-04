@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		tools:ignore="UselessParent">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="125dp"
+			android:layout_height="125dp"
+			android:src="@drawable/iglogo"
+			android:scaleType="fitCenter"
+			tools:ignore="ContentDescription" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="2dp"
+				android:text="PasCol"
+				android:textSize="30sp"
+				android:textStyle="bold"
+				android:textColor="#EA005E"
+				tools:ignore="HardcodedText" />
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="2dp"
+				android:text="Instagram Feed &amp; Stories Downloader"
+				android:textSize="12sp"
+				android:textColor="#EA005E"
+				tools:ignore="HardcodedText" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

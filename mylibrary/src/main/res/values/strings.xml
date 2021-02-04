@@ -1,0 +1,9 @@
+<resources>
+	<string name="getting_downloading_link">Getting Downloading Link…</string>
+	<string name="download_started">Download Started</string>
+	<string name="share_txt">Hey view/download this image</string>
+	<string name="share_image_via">Share File via…</string>
+	<string name="whatsapp_not_installed">Whtasapp not installed.</string>
+	<string name="no_app_installed">No application found to open this file.</string>
+	<string name="app_not_available">App Not Available.</string>
+</resources>

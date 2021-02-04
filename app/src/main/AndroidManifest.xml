@@ -1,0 +1,69 @@
+
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	package="id.indosw.pascol">
+	<uses-permission	android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission	android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+		tools:ignore="ScopedStorage" />
+	<uses-permission	android:name="android.permission.INTERNET"/>
+	<uses-permission	android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission	android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<application
+		android:allowBackup="true"
+		android:label="PasCol"
+		android:icon="@drawable/app_icon"
+		android:largeHeap="true"
+		android:usesCleartextTraffic="true"
+		android:requestLegacyExternalStorage="true"
+		android:theme="@style/AppTheme"
+		tools:targetApi="m"
+		tools:ignore="AllowBackup">
+		<activity
+			android:name=".MainActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"
+			tools:targetApi="n"
+			tools:ignore="LockedOrientationActivity">
+			<intent-filter>
+				<action	android:name="android.intent.action.MAIN"/>
+				<category	android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.SEND" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="image/*" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.SEND" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="text/plain" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.SEND_MULTIPLE" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="image/*" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".InstagramActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait"
+			tools:targetApi="n"
+			tools:ignore="LockedOrientationActivity" />
+		<activity
+			android:name="id.indosw.pascol.LoginActivity"
+			android:configChanges="orientation|screenSize"/>
+		<activity
+			android:name="id.indosw.pascol.activity.FullViewActivity"
+			android:configChanges="orientation|screenSize"/>
+		<uses-library
+			android:name="org.apache.http.legacy"
+			android:required="false"/>
+	</application>
+</manifest>
